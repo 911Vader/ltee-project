@@ -1,7 +1,4 @@
 # Decision log
 
-<<<<<<< HEAD
-- Variant filter: minimum read depth 5 (Ada: fewer false calls).
-=======
-- Variant filter: minimum read depth 10 (Ben: about the mean depth of these data).
->>>>>>> depth-10
+- Variant filter: report results at minimum read depth 2 and 10, and decide which to keep
+  once we can compare them (Ada wanted 5 to reduce false calls; Ben 10, about the mean depth).
